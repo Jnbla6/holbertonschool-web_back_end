@@ -12,4 +12,3 @@ async def task_wait_n(n: int, max_delay: int) -> List[float]:
         notdelay = await wait_random(max_delay)
         gecikme.append(notdelay)
     return sorted(gecikme)
-    
